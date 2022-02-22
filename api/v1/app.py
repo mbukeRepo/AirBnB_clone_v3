@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-# flask app main file
+"""
+flask app main file
+"""
 
 from flask import Flask, jsonify, make_response
 from os import environ
