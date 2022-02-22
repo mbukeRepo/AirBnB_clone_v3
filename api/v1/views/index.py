@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""
-contain routes on app_views blueprint
+"""contain routes on app_views blueprint
 /status => route handler
 /stats => route handler
 """
