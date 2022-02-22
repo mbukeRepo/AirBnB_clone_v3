@@ -70,7 +70,12 @@ class FileStorage:
         self.reload()
 
     def get(self, cls, id):
-        """gets the object by id"""
+        """
+	    gets the object by id
+	    Args:
+		cls<String>: class of the object to search
+		id<UUID>: uuid of the object to search
+	"""
         clsname = cls
         if type(cls) != str:
             clsname = cls.__name__
@@ -81,5 +86,9 @@ class FileStorage:
         return None
 
     def count(self, cls=None):
-        """Counts the number of records"""
+        """
+	   Counts the number of records
+	   Args:
+		cls<String>: class of the object
+	"""
         return len(self.all(cls))
