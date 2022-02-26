@@ -17,7 +17,7 @@ def index():
 @app.route('/airbnb-onepage')
 def onpage():
     """ handles airbnb-onepage """
-    return "airbnb onepage"
+    return "Hello HBNB!"
 
 
 if __name__ == '__main__':
